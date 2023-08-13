@@ -1,0 +1,10 @@
+
+call main
+exit 1
+main:
+  syscall print_structure
+  return 
+
+print_structure:
+  dump 1
+  dump "hello world"
